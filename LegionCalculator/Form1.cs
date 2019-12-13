@@ -35,6 +35,7 @@ namespace LegionCalculator
             bWhiteDefence;
         //Attack Keywords
         int
+            iRam,
             iImpact,
             iPierce,
             iPrecise;
@@ -91,6 +92,7 @@ namespace LegionCalculator
             iImpact = (int)updnImpact.Value;
             iPierce = (int)updnPierce.Value;
             iPrecise = (int)updnPrecise.Value; //Aim token allows for 2 rerolls automattically.
+            iRam = (int)updnRam.Value;
             //Surges
 
             bSurgeToCrit = rbtnSurgeToCrit.Checked;
@@ -317,6 +319,7 @@ namespace LegionCalculator
                 #region Attack Step 4
                 int CriticalUsed = 0;
                 int SurgeTokensUsed = 0;
+                int RamUsed = 0;
                 //Roll attack pool
                 foreach (Dice AttackDie in ListOfAttackDice)
                  {
@@ -354,6 +357,29 @@ namespace LegionCalculator
                              RerolledDice++;
                          }
                      }//White
+                }
+                //Ram!
+                foreach(Dice AttackDie in ListOfAttackDice)
+                {
+                    if(RamUsed < iRam)
+                    {
+                        if (AttackDie.ReadResult() == "Blank")
+                        {
+                            AttackDie.Set("Crit");
+                            RamUsed++;
+                        }
+                    }
+                }
+                foreach (Dice AttackDie in ListOfAttackDice)
+                {
+                    if (RamUsed < iRam)
+                    {
+                        if (AttackDie.ReadResult() == "Hit")
+                        {
+                            AttackDie.Set("Crit");
+                            RamUsed++;
+                        }
+                    }
                 }
                 //Tally Results
                 foreach (Dice AttackDie in ListOfAttackDice)

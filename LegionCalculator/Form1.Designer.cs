@@ -54,20 +54,22 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.gpbxDefender = new System.Windows.Forms.GroupBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.updnShield = new System.Windows.Forms.NumericUpDown();
             this.label12 = new System.Windows.Forms.Label();
             this.DefenderSurges = new System.Windows.Forms.GroupBox();
             this.label13 = new System.Windows.Forms.Label();
             this.updnDefenceSurgeTokens = new System.Windows.Forms.NumericUpDown();
             this.ckbxSurgeToBlock = new System.Windows.Forms.CheckBox();
-            this.UpDnDangerSense = new System.Windows.Forms.NumericUpDown();
+            this.ckbxImpervious = new System.Windows.Forms.CheckBox();
             this.label11 = new System.Windows.Forms.Label();
             this.UpDnArmourX = new System.Windows.Forms.NumericUpDown();
-            this.ckbxImpervious = new System.Windows.Forms.CheckBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.updnLuck = new System.Windows.Forms.NumericUpDown();
+            this.UpDnDangerSense = new System.Windows.Forms.NumericUpDown();
             this.label9 = new System.Windows.Forms.Label();
             this.UpDnDodgeToken = new System.Windows.Forms.NumericUpDown();
+            this.label10 = new System.Windows.Forms.Label();
             this.ckbxDeflect = new System.Windows.Forms.CheckBox();
+            this.updnLuck = new System.Windows.Forms.NumericUpDown();
             this.gpbxCover = new System.Windows.Forms.GroupBox();
             this.rbtnNoCover = new System.Windows.Forms.RadioButton();
             this.rbtnHeavyCover = new System.Windows.Forms.RadioButton();
@@ -85,8 +87,8 @@
             this.ttMainForm = new System.Windows.Forms.ToolTip(this.components);
             this.OutputGpBx = new System.Windows.Forms.GroupBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.updnShield = new System.Windows.Forms.NumericUpDown();
-            this.label17 = new System.Windows.Forms.Label();
+            this.updnRam = new System.Windows.Forms.NumericUpDown();
+            this.label18 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.updnRedAttack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.updnBlackAttack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.updnWhiteAttack)).BeginInit();
@@ -99,17 +101,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.updnPierce)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.updnImpact)).BeginInit();
             this.gpbxDefender.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.updnShield)).BeginInit();
             this.DefenderSurges.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.updnDefenceSurgeTokens)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UpDnDangerSense)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.UpDnArmourX)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.updnLuck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UpDnDangerSense)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.UpDnDodgeToken)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.updnLuck)).BeginInit();
             this.gpbxCover.SuspendLayout();
             this.gpbxDefenceDice.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.updnItterations)).BeginInit();
             this.OutputGpBx.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.updnShield)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.updnRam)).BeginInit();
             this.SuspendLayout();
             // 
             // updnRedAttack
@@ -138,6 +141,8 @@
             // 
             // gpbxAttacker
             // 
+            this.gpbxAttacker.Controls.Add(this.updnRam);
+            this.gpbxAttacker.Controls.Add(this.label18);
             this.gpbxAttacker.Controls.Add(this.updnCritical);
             this.gpbxAttacker.Controls.Add(this.label8);
             this.gpbxAttacker.Controls.Add(this.label16);
@@ -157,7 +162,7 @@
             this.gpbxAttacker.Controls.Add(this.updnRedAttack);
             this.gpbxAttacker.Location = new System.Drawing.Point(12, 12);
             this.gpbxAttacker.Name = "gpbxAttacker";
-            this.gpbxAttacker.Size = new System.Drawing.Size(150, 320);
+            this.gpbxAttacker.Size = new System.Drawing.Size(150, 343);
             this.gpbxAttacker.TabIndex = 3;
             this.gpbxAttacker.TabStop = false;
             this.gpbxAttacker.Text = "Attacker";
@@ -174,7 +179,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(71, 293);
+            this.label8.Location = new System.Drawing.Point(67, 319);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(63, 13);
             this.label8.TabIndex = 15;
@@ -191,7 +196,7 @@
             // 
             // UpDnAimToken
             // 
-            this.UpDnAimToken.Location = new System.Drawing.Point(10, 291);
+            this.UpDnAimToken.Location = new System.Drawing.Point(6, 317);
             this.UpDnAimToken.Name = "UpDnAimToken";
             this.UpDnAimToken.Size = new System.Drawing.Size(55, 20);
             this.UpDnAimToken.TabIndex = 14;
@@ -213,7 +218,7 @@
             this.gobxSurges.Controls.Add(this.rbtnSurgesNone);
             this.gobxSurges.Controls.Add(this.rbtnSurgeToCrit);
             this.gobxSurges.Controls.Add(this.rbtnSurgeToHits);
-            this.gobxSurges.Location = new System.Drawing.Point(6, 196);
+            this.gobxSurges.Location = new System.Drawing.Point(6, 217);
             this.gobxSurges.Name = "gobxSurges";
             this.gobxSurges.Size = new System.Drawing.Size(138, 94);
             this.gobxSurges.TabIndex = 12;
@@ -243,7 +248,7 @@
             // 
             this.rbtnSurgesNone.AutoSize = true;
             this.rbtnSurgesNone.Checked = true;
-            this.rbtnSurgesNone.Location = new System.Drawing.Point(44, 41);
+            this.rbtnSurgesNone.Location = new System.Drawing.Point(44, 42);
             this.rbtnSurgesNone.Name = "rbtnSurgesNone";
             this.rbtnSurgesNone.Size = new System.Drawing.Size(51, 17);
             this.rbtnSurgesNone.TabIndex = 13;
@@ -256,7 +261,7 @@
             // rbtnSurgeToCrit
             // 
             this.rbtnSurgeToCrit.AutoSize = true;
-            this.rbtnSurgeToCrit.Location = new System.Drawing.Point(6, 19);
+            this.rbtnSurgeToCrit.Location = new System.Drawing.Point(6, 20);
             this.rbtnSurgeToCrit.Name = "rbtnSurgeToCrit";
             this.rbtnSurgeToCrit.Size = new System.Drawing.Size(45, 17);
             this.rbtnSurgeToCrit.TabIndex = 10;
@@ -268,7 +273,7 @@
             // rbtnSurgeToHits
             // 
             this.rbtnSurgeToHits.AutoSize = true;
-            this.rbtnSurgeToHits.Location = new System.Drawing.Point(89, 19);
+            this.rbtnSurgeToHits.Location = new System.Drawing.Point(89, 20);
             this.rbtnSurgeToHits.Name = "rbtnSurgeToHits";
             this.rbtnSurgeToHits.Size = new System.Drawing.Size(43, 17);
             this.rbtnSurgeToHits.TabIndex = 11;
@@ -377,6 +382,23 @@
             this.gpbxDefender.Text = "Defender";
             this.ttMainForm.SetToolTip(this.gpbxDefender, "The stats of the defending unit.");
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(47, 241);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(75, 13);
+            this.label17.TabIndex = 25;
+            this.label17.Text = "Shield Tokens";
+            // 
+            // updnShield
+            // 
+            this.updnShield.Location = new System.Drawing.Point(8, 239);
+            this.updnShield.Name = "updnShield";
+            this.updnShield.Size = new System.Drawing.Size(36, 20);
+            this.updnShield.TabIndex = 24;
+            this.ttMainForm.SetToolTip(this.updnShield, "Acts like dodge tokens but also works on crits.");
+            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -426,13 +448,16 @@
             this.ttMainForm.SetToolTip(this.ckbxSurgeToBlock, "The defender converts defence surges to blocks.");
             this.ckbxSurgeToBlock.UseVisualStyleBackColor = true;
             // 
-            // UpDnDangerSense
+            // ckbxImpervious
             // 
-            this.UpDnDangerSense.Location = new System.Drawing.Point(8, 291);
-            this.UpDnDangerSense.Name = "UpDnDangerSense";
-            this.UpDnDangerSense.Size = new System.Drawing.Size(36, 20);
-            this.UpDnDangerSense.TabIndex = 20;
-            this.ttMainForm.SetToolTip(this.UpDnDangerSense, "The number of supression tokens you have the trigger danger sense.");
+            this.ckbxImpervious.AutoSize = true;
+            this.ckbxImpervious.Location = new System.Drawing.Point(8, 317);
+            this.ckbxImpervious.Name = "ckbxImpervious";
+            this.ckbxImpervious.Size = new System.Drawing.Size(77, 17);
+            this.ckbxImpervious.TabIndex = 17;
+            this.ckbxImpervious.Text = "Impervious";
+            this.ttMainForm.SetToolTip(this.ckbxImpervious, "Add defence dice equal to the pierce of the attacker.");
+            this.ckbxImpervious.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
@@ -452,33 +477,13 @@
             this.ttMainForm.SetToolTip(this.UpDnArmourX, "Armour has priority over Armour X. Armour X removes X hits from the pool after im" +
         "pact has converted hits to crits.");
             // 
-            // ckbxImpervious
+            // UpDnDangerSense
             // 
-            this.ckbxImpervious.AutoSize = true;
-            this.ckbxImpervious.Location = new System.Drawing.Point(8, 317);
-            this.ckbxImpervious.Name = "ckbxImpervious";
-            this.ckbxImpervious.Size = new System.Drawing.Size(77, 17);
-            this.ckbxImpervious.TabIndex = 17;
-            this.ckbxImpervious.Text = "Impervious";
-            this.ttMainForm.SetToolTip(this.ckbxImpervious, "Add defence dice equal to the pierce of the attacker.");
-            this.ckbxImpervious.UseVisualStyleBackColor = true;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(47, 267);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(77, 13);
-            this.label10.TabIndex = 16;
-            this.label10.Text = "Uncanny Luck";
-            // 
-            // updnLuck
-            // 
-            this.updnLuck.Location = new System.Drawing.Point(8, 265);
-            this.updnLuck.Name = "updnLuck";
-            this.updnLuck.Size = new System.Drawing.Size(36, 20);
-            this.updnLuck.TabIndex = 15;
-            this.ttMainForm.SetToolTip(this.updnLuck, "Rerolls this number of defence dice if they are blank.");
+            this.UpDnDangerSense.Location = new System.Drawing.Point(8, 291);
+            this.UpDnDangerSense.Name = "UpDnDangerSense";
+            this.UpDnDangerSense.Size = new System.Drawing.Size(36, 20);
+            this.UpDnDangerSense.TabIndex = 20;
+            this.ttMainForm.SetToolTip(this.UpDnDangerSense, "The number of supression tokens you have the trigger danger sense.");
             // 
             // label9
             // 
@@ -497,6 +502,15 @@
             this.UpDnDodgeToken.TabIndex = 13;
             this.ttMainForm.SetToolTip(this.UpDnDodgeToken, "Each dodge token reduces the number of hits by 1 before rolling defence.");
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(47, 267);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(77, 13);
+            this.label10.TabIndex = 16;
+            this.label10.Text = "Uncanny Luck";
+            // 
             // ckbxDeflect
             // 
             this.ckbxDeflect.AutoSize = true;
@@ -508,6 +522,14 @@
             this.ttMainForm.SetToolTip(this.ckbxDeflect, "Also acts as block. Only works when you also have a dodge token.\r\nAllows the defe" +
         "nder to convert defensive surges into blocks.");
             this.ckbxDeflect.UseVisualStyleBackColor = true;
+            // 
+            // updnLuck
+            // 
+            this.updnLuck.Location = new System.Drawing.Point(8, 265);
+            this.updnLuck.Name = "updnLuck";
+            this.updnLuck.Size = new System.Drawing.Size(36, 20);
+            this.updnLuck.TabIndex = 15;
+            this.ttMainForm.SetToolTip(this.updnLuck, "Rerolls this number of defence dice if they are blank.");
             // 
             // gpbxCover
             // 
@@ -671,7 +693,7 @@
             // 
             this.rtxtbxOutput.Location = new System.Drawing.Point(6, 90);
             this.rtxtbxOutput.Name = "rtxtbxOutput";
-            this.rtxtbxOutput.Size = new System.Drawing.Size(349, 244);
+            this.rtxtbxOutput.Size = new System.Drawing.Size(349, 221);
             this.rtxtbxOutput.TabIndex = 9;
             this.rtxtbxOutput.Text = "";
             this.ttMainForm.SetToolTip(this.rtxtbxOutput, "The output of the simulation.");
@@ -685,7 +707,7 @@
             this.OutputGpBx.Controls.Add(this.label7);
             this.OutputGpBx.Location = new System.Drawing.Point(381, 12);
             this.OutputGpBx.Name = "OutputGpBx";
-            this.OutputGpBx.Size = new System.Drawing.Size(362, 343);
+            this.OutputGpBx.Size = new System.Drawing.Size(362, 320);
             this.OutputGpBx.TabIndex = 10;
             this.OutputGpBx.TabStop = false;
             this.OutputGpBx.Text = "Output";
@@ -693,28 +715,28 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(25, 342);
+            this.label15.Location = new System.Drawing.Point(612, 335);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(131, 13);
             this.label15.TabIndex = 11;
-            this.label15.Text = "Last Updated: 2019-07-12";
+            this.label15.Text = "Last Updated: 2019-12-13";
             // 
-            // updnShield
+            // updnRam
             // 
-            this.updnShield.Location = new System.Drawing.Point(8, 239);
-            this.updnShield.Name = "updnShield";
-            this.updnShield.Size = new System.Drawing.Size(36, 20);
-            this.updnShield.TabIndex = 24;
-            this.ttMainForm.SetToolTip(this.updnShield, "Acts like dodge tokens but also works on crits.");
+            this.updnRam.Location = new System.Drawing.Point(74, 196);
+            this.updnRam.Name = "updnRam";
+            this.updnRam.Size = new System.Drawing.Size(49, 20);
+            this.updnRam.TabIndex = 16;
+            this.ttMainForm.SetToolTip(this.updnRam, "Changes X surges to crits before below conversions occur.");
             // 
-            // label17
+            // label18
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(47, 241);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(75, 13);
-            this.label17.TabIndex = 25;
-            this.label17.Text = "Shield Tokens";
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(36, 198);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(32, 13);
+            this.label18.TabIndex = 17;
+            this.label18.Text = "Ram:";
             // 
             // Form1
             // 
@@ -744,13 +766,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.updnImpact)).EndInit();
             this.gpbxDefender.ResumeLayout(false);
             this.gpbxDefender.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.updnShield)).EndInit();
             this.DefenderSurges.ResumeLayout(false);
             this.DefenderSurges.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.updnDefenceSurgeTokens)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UpDnDangerSense)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.UpDnArmourX)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.updnLuck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UpDnDangerSense)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.UpDnDodgeToken)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.updnLuck)).EndInit();
             this.gpbxCover.ResumeLayout(false);
             this.gpbxCover.PerformLayout();
             this.gpbxDefenceDice.ResumeLayout(false);
@@ -758,7 +781,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.updnItterations)).EndInit();
             this.OutputGpBx.ResumeLayout(false);
             this.OutputGpBx.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.updnShield)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.updnRam)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -823,6 +846,8 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.NumericUpDown updnShield;
+        private System.Windows.Forms.NumericUpDown updnRam;
+        private System.Windows.Forms.Label label18;
     }
 }
 

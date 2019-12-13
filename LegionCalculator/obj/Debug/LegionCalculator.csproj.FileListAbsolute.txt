@@ -8,3 +8,13 @@ C:\Users\Andy\Source\Repos\andrew-s-hart\SW-Legion-Probability-Calculator\Legion
 C:\Users\Andy\Source\Repos\andrew-s-hart\SW-Legion-Probability-Calculator\LegionCalculator\obj\Debug\LegionCalculator.csproj.CoreCompileInputs.cache
 C:\Users\Andy\Source\Repos\andrew-s-hart\SW-Legion-Probability-Calculator\LegionCalculator\obj\Debug\LegionCalculator.exe
 C:\Users\Andy\Source\Repos\andrew-s-hart\SW-Legion-Probability-Calculator\LegionCalculator\obj\Debug\LegionCalculator.pdb
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\bin\Debug\LegionCalculator.exe.config
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\bin\Debug\LegionCalculator.exe
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\bin\Debug\LegionCalculator.pdb
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Debug\LegionCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Debug\LegionCalculator.Form1.resources
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Debug\LegionCalculator.Properties.Resources.resources
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Debug\LegionCalculator.csproj.GenerateResource.cache
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Debug\LegionCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Debug\LegionCalculator.exe
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Debug\LegionCalculator.pdb

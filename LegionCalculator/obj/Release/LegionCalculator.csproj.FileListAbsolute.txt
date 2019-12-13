@@ -8,3 +8,13 @@ C:\Users\Andy\source\repos\andrew-s-hart\SW-Legion-Probability-Calculator\Legion
 C:\Users\Andy\source\repos\andrew-s-hart\SW-Legion-Probability-Calculator\LegionCalculator\obj\Release\LegionCalculator.csproj.CoreCompileInputs.cache
 C:\Users\Andy\source\repos\andrew-s-hart\SW-Legion-Probability-Calculator\LegionCalculator\obj\Release\LegionCalculator.exe
 C:\Users\Andy\source\repos\andrew-s-hart\SW-Legion-Probability-Calculator\LegionCalculator\obj\Release\LegionCalculator.pdb
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\bin\Release\LegionCalculator.exe.config
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\bin\Release\LegionCalculator.exe
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\bin\Release\LegionCalculator.pdb
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Release\LegionCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Release\LegionCalculator.Form1.resources
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Release\LegionCalculator.Properties.Resources.resources
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Release\LegionCalculator.csproj.GenerateResource.cache
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Release\LegionCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Release\LegionCalculator.exe
+C:\Users\Andy\OneDrive\Documents\Visual Studio Projects\SW-Legion-Probability-Calculator-master\LegionCalculator\obj\Release\LegionCalculator.pdb
